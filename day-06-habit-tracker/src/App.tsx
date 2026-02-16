@@ -1,7 +1,10 @@
+import Habit from "./Habit";
 
 const App = () => {
   return (
-    <div className="text-4xl bg-blue-500">App</div>
+    <div >
+      <Habit/>
+    </div>
   )
 }
 export default App;
